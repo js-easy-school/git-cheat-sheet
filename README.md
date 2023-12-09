@@ -36,3 +36,11 @@
 - `git bisect` - поиск коммита, в котором возникла проблема
 
 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
